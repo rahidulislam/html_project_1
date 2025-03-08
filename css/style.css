@@ -25,7 +25,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 .header {
   background-color: #1c1e53;
@@ -73,7 +73,7 @@ body {
 
 /* ===============navbar end================== */
 
-/* ==============hero start=================== */
+/* ==============hero section start=================== */
 
 .hero {
   padding: 120px 0;
@@ -126,3 +126,103 @@ body {
 .hero-right img {
   width: 100%;
 }
+/* ======hero section end========= */
+/* ======work section start======= */
+.work {
+  padding: 120px 0;
+  background-color: #f4f6fc;
+}
+.work-left {
+  padding-right: 140px;
+}
+.work-left h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #282938;
+}
+.work-left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #282938;
+  padding: 16px 0;
+}
+.work-left a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #5239fa;
+  transition: all 0.2s ease;
+}
+.work-left a:hover {
+  color: #2405f2;
+}
+.work-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.step {
+  padding: 25px;
+}
+.step-no {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #5239fa;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.step-no::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 0 8px;
+  background-color: #fcd980;
+}
+.step-no::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 18%;
+  left: 18%;
+  background-color: #5239fa;
+  border-radius: 0 0 0 8px;
+}
+.step-no h4 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.step h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #282938;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 16px 0;
+}
+.step p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282938;
+}
+/* ========woek section end ================ */
