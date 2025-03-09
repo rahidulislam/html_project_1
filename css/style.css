@@ -14,6 +14,10 @@ body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
 }
+
+.p-left {
+  padding-left: 16px;
+}
 /* navbar start */
 
 .full-width {
@@ -226,3 +230,131 @@ body {
   color: #282938;
 }
 /* ========woek section end ================ */
+/* ====== proeject section start ========== */
+.project .container {
+  display: grid;
+  padding: 128px 0;
+}
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.project-header h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #282938;
+}
+.project-header a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #282938;
+}
+.project-header a:hover {
+  color: #5239fa;
+}
+
+.project-body {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+}
+.project-left {
+  position: relative;
+  width: 100%;
+  height: 93%;
+  overflow: hidden;
+}
+.project-left img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay-content-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #1c1e536b, #1c1e53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+.project-left:hover .overlay-content-left {
+  transform: translateX(0%);
+}
+.overlay-content-left h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+  padding: 120px 35px 8px 35px;
+}
+.overlay-content-left p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+  padding: 8px 35px 20px 35px;
+}
+.overlay-content-left a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fcd980;
+  padding: 20px 35px 0 35px;
+}
+.project-right {
+  display: grid;
+  gap: 32px;
+  height: 93%;
+}
+.project-right-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.project-right-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.overlay-content-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #1c1e536b, #1c1e53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-110%);
+  transition: transform 0.5s;
+}
+
+.project-right-wrapper:hover .overlay-content-right {
+  transform: translateY(0%);
+}
+.overlay-content-right h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+  padding: 120px 40px 5px 40px;
+}
+.overlay-content-right a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fcd980;
+  padding: 5px 40px 0 40px;
+  transition: all 0.3s ease;
+}
+/* ========= project section end=================== */
