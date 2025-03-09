@@ -411,12 +411,14 @@ body {
 }
 /* ============= feature section end ================ */
 /* ========== testimonial section start ============ */
+.testimonial {
+  background: #fafbfe;
+}
 .testimonial .container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 50px;
   padding: 120px 0 120px 0;
-  background: #fafbfe;
 }
 
 .testimonial-left {
