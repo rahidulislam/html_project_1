@@ -358,24 +358,24 @@ body {
   transition: all 0.3s ease;
 }
 /* ========= project section end=================== */
-.feature .container{
+.feature .container {
   flex-direction: column;
 }
-.feature{
-  background: #F4F6FC;
+.feature {
+  background: #f4f6fc;
 }
-.feature-header{
+.feature-header {
   margin: 0 auto;
-  padding: 120px 0 20px 0 ;
+  padding: 120px 0 20px 0;
 }
-.feature-header h4{
+.feature-header h4 {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   color: #282938;
   text-align: center;
 }
-.feature-header h2{
+.feature-header h2 {
   font-size: 48px;
   font-weight: 600;
   line-height: 64px;
@@ -383,26 +383,26 @@ body {
   text-align: center;
   padding: 0 310px;
 }
-.feature-body{
+.feature-body {
   display: grid;
   gap: 32px;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: center;
   padding: 20px 0 120px 0;
 }
-.feature-item{
+.feature-item {
   background-color: #fff;
   padding: 50px 40px;
 }
-.feature-item h3{
+.feature-item h3 {
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
   color: #282938;
   margin: 20px 0 10px 0;
 }
-.feature-item p{
+.feature-item p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -410,3 +410,66 @@ body {
   color: #282938;
 }
 /* ============= feature section end ================ */
+/* ========== testimonial section start ============ */
+.testimonial .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  padding: 120px 0 120px 0;
+  background: #fafbfe;
+}
+
+.testimonial-left {
+  padding-right: 50px;
+}
+
+.testimonial-left h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #282938;
+}
+.testimonial-left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282938;
+  padding-top: 16px;
+}
+.testimonial-right h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #282938;
+}
+.author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 48px;
+}
+.author-image {
+  width: 52px;
+  height: 52px;
+}
+.author-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.author-content {
+  padding-left: 15px;
+}
+.author-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #282938;
+}
+.author-content p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282938;
+}
+/* ========== testimonial section end ============ */
