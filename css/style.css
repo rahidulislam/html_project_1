@@ -475,3 +475,34 @@ body {
   color: #282938;
 }
 /* ========== testimonial section end ============ */
+/* ============== faq section start ================= */
+.faq {
+  background: #fff;
+}
+.faq .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  padding: 120px 0 ;
+}
+.faq-left h3{
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #282938;
+}
+.faq-left a{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #2405f2;
+}
+.accordian{
+  display: flex;
+  flex-direction: column;
+  
+}
+.accordian-title h4 span{
+  margin-right: 56px;
+}
+/* ============== faq section end ================= */
