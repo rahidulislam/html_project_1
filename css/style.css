@@ -555,21 +555,21 @@ body {
 }
 /* ============== faq section end ================= */
 /* ========== contact section start ============= */
-.contact .content{
+.contact-section .content{
   flex-direction: column;
   grid-template-columns: 2fr 1fr;
 }
-.contact-left{
+.contact-image{
   position: relative;
   display: inline-block;
   width: 100%;
 }
-.contact-left img{
+.contact-image img{
   display: block;
   width: 100%;
   height: auto;
 }
-.overlay-contact{
+.contact-overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -583,36 +583,36 @@ body {
   color: #fff;
 
 }
-.overlay-contact h2{
+.contact-overlay h2{
   font-size: 54px;
   font-weight: 600;
   line-height: 74px;
 }
-.overlay-contact p{
+.contact-overlay p{
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   text-align: justify;
 }
-.contact-right{
+.contact-form-wrapper{
   display: flex;
   flex-direction: column;
   background-color: #1c1e53;
   padding: 96px 96px 0 96px;
   color: #fff;
 }
-.contact-right h3{
+.contact-form-wrapper h3{
   font-size: 32px;
   font-weight: 500;
   line-height: 48px;
 }
-.contact-right p{
+.contact-form-wrapper p{
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   text-align: justify;
 }
-.contact-right a{
+.contact-form-wrapper a{
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
