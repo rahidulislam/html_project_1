@@ -704,3 +704,61 @@ body {
   color: #5239fa;
 }
 /* ============ blog section end ============= */
+/* ========= footer content section start =========== */
+.footer-content{
+  padding-top: 96px;
+  background-color: #1c1e53;
+}
+.footer-content .container{
+  gap: 140px;
+}
+.footer-description{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 22px 0 86px 0;
+}
+.footer-contact-details{
+  display: flex;
+  gap: 30px;
+  padding: 17px 36px;
+  background-color: #fcd980;
+}
+.contact-item h4{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #282938;
+}
+.contact-item p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(40, 41, 56, 0.8);
+}
+.footer-contact h3{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #fff;
+}
+.footer-contact p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 14px 0 28px 0;
+}
+.footer-social-links{
+  display: inline-flex;
+  gap: 25px;
+}
+.footer-social-links a{
+font-size: 16px;
+font-weight: 400;
+  color: #fff;
+}
+/* ========= footer content section end =========== */
+/* ========= footer bottom section start =========== */
+/* ========= footer bottom section end =========== */
