@@ -483,93 +483,92 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 50px;
-  padding: 120px 0 ;
+  padding: 120px 0;
 }
-.faq-left h3{
+.faq-left h3 {
   font-size: 38px;
   font-weight: 600;
   line-height: 56px;
   color: #282938;
 }
-.faq-left a{
+.faq-left a {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
   color: #2405f2;
 }
-.accordian{
+.accordian {
   display: flex;
   flex-direction: column;
-  
 }
 
-.question{
+.question {
   display: flex;
   /* margin: 0 auto; */
   /* gap: 56px; */
   justify-content: flex-start;
   align-items: center;
 }
-.question span{
+.question span {
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
   color: #2405f2;
   margin-right: 24px;
 }
-.question h4{
+.question h4 {
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
   color: #282938;
   margin-left: 24px;
 }
-.question svg{
+.question svg {
   margin-left: auto;
   width: 16px;
   height: 16px;
   color: #282938;
   opacity: 0.7;
 }
-.answer{
+.answer {
   max-height: 0;
   overflow: hidden;
   transition: all 0.4s ease-in-out;
 }
-.answer p{
+.answer p {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
   color: #282938;
   margin-left: 80px;
 }
-.faq-item{
+.faq-item {
   padding: 30px;
   border-bottom: 2px solid #ececf1;
   cursor: pointer;
 }
-.faq-item.active .answer{
+.faq-item.active .answer {
   max-height: 300px;
   padding: 16px 0;
   opacity: 0.8;
 }
 /* ============== faq section end ================= */
 /* ========== contact section start ============= */
-.contact-section .content{
+.contact-section .content {
   flex-direction: column;
   grid-template-columns: 2fr 1fr;
 }
-.contact-image{
+.contact-image {
   position: relative;
   display: inline-block;
   width: 100%;
 }
-.contact-image img{
+.contact-image img {
   display: block;
   width: 100%;
   height: auto;
 }
-.contact-overlay{
+.contact-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -581,47 +580,45 @@ body {
   padding: 96px;
   justify-content: center;
   color: #fff;
-
 }
-.contact-overlay h2{
+.contact-overlay h2 {
   font-size: 54px;
   font-weight: 600;
   line-height: 74px;
 }
-.contact-overlay p{
+.contact-overlay p {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   text-align: justify;
 }
-.contact-form-wrapper{
+.contact-form-wrapper {
   display: flex;
   flex-direction: column;
   background-color: #1c1e53;
   padding: 96px 96px 0 96px;
   color: #fff;
 }
-.contact-form-wrapper h3{
+.contact-form-wrapper h3 {
   font-size: 32px;
   font-weight: 500;
   line-height: 48px;
 }
-.contact-form-wrapper p{
+.contact-form-wrapper p {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   text-align: justify;
 }
-.contact-form-wrapper a{
+.contact-form-wrapper a {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
   color: #fff;
   margin: 0 80px;
-
 }
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -629,7 +626,7 @@ body {
   justify-content: center;
   align-content: center;
 }
-.contact-form input{
+.contact-form input {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -639,7 +636,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
-.contact-form button{
+.contact-form button {
   font-size: 18px;
   font-weight: 600;
   line-height: 32px;
@@ -652,5 +649,58 @@ body {
   cursor: pointer;
 }
 
-
 /* ========== contact section end ============= */
+/* ============ blog section start ============= */
+.blog-section .container {
+  flex-direction: column;
+  padding: 60px 0px 180px 0;
+}
+.blog-header h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #282938;
+}
+.blog-list {
+  display: flex;
+  gap: 32px;
+  margin-top: 60px;
+}
+.blog-card {
+  display: flex;
+  flex-direction: column;
+}
+.blog-card img {
+  display: block;
+  width: 100%;
+}
+.blog-card span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgba(40, 41, 56, 0.7);
+  padding: 40px 0 16px 0;
+}
+.blog-card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #282938;
+}
+.blog-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(40, 41, 56, 0.7);
+  padding: 16px 0 32px 0;
+}
+.blog-read-more {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282938;
+}
+.blog-read-more:hover {
+  color: #5239fa;
+}
+/* ============ blog section end ============= */
